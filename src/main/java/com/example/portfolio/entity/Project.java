@@ -53,7 +53,7 @@ public class Project {
     }
 
     public void setCategory(@NonNull String category) {
-        category = category;
+        this.category = category;
     }
 
     public List<String> getTechStack() {
@@ -71,7 +71,7 @@ public class Project {
                 ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", techStack=" + techStack +
-                ", Category='" + category + '\'' +
+                ", category='" + category + '\'' +
                 '}';
     }
 }
